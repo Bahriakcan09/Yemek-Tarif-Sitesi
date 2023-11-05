@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px blue;
+    height: min-content;
+    width: min-content;
+    justify-content: center;
+}
+
+form input[type="email"],
+form input[type="password"],
+form input[type="text"] {
+    outline: none;
+    border: none;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 5px;
+    margin: 5px;
+}
+
+form input[type="submit"] {
+    background: #5e94ff;
+    padding: 10px;
+    border: none;
+    color: white;
+    width: 7.5rem;
+    border-radius: 10px;
+}
+
+form a {
+    text-decoration: none;
+}
+
+form a:hover {
+    color: #5e94ff;
+}
+
+#dnm:hover * {
+    background: rgb(44, 44, 44);
+    color: white;
+}
