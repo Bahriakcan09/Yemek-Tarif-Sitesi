@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+:root {
+    /*buraya tema ile ilgili renk atamaları yapılacak*/
+}
+
+body {
+    height: 100vh;
+}
