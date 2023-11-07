@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/Register.css">
     <link rel="stylesheet" href="css/general.css">
-    <title>-> Hoşgeldiniz
-        <-</title>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <title>Kayıt Ol</title>
 </head>
+<script src="js/Register.js"></script>
 
 <body>
     <form action="LoginPage.html">
@@ -29,11 +30,17 @@
             <input type="password" name="password" id="password" placeholder="********">
         </div>
         <div>
-            <input type="password" name="password" id="password" placeholder="********">
+            <input type="password" name="password2" id="password2" placeholder="********">
         </div>
-        <a href="#">Mevcut hesabınız var mı ?</a>
+        <div>
+            <input type="text" name="code" id="code" readonly>
+        </div>
+        <a href="LoginPage.html">Mevcut hesabınız var mı ?</a>
         <input type="submit" value="Kayıt Ol">
     </form>
 </body>
 
 </html>
+<script>
+    kodeuret();
+</script>
