@@ -4,10 +4,6 @@
     color: black;
 }
 
-:root {
-    /*buraya tema ile ilgili renk atamaları yapılacak*/
-}
-
 body {
     height: 100vh;
 }

@@ -1,0 +1,84 @@
+header {
+    background-color: rgba(44, 44, 44, 0.05);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 10px blue;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.username {
+    margin-top: 10px;
+    color: #5e94ff;
+}
+
+main {
+    padding: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    color: #5e94ff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.followers,
+.following {
+    text-align: center;
+}
+
+.stat-label,
+.food h2,
+.about h2 {
+    color: #555555;
+}
+
+.about h2 {
+    text-decoration: underline;
+}
+
+.stat-value {
+    color: #5e94ff;
+}
+
+.food {
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 0 0 5px blue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.food h2 {
+    display: inline;
+    text-align: left;
+    width: 100%;
+}
+
+.food img {
+    height: 350px;
+}
+
+@media only screen and (max-width: 600px) {
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+    }
+    .food img {
+        height: 200px;
+    }
+}

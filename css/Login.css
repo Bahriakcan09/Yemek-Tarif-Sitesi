@@ -34,15 +34,15 @@ form input[type="submit"] {
     border-radius: 10px;
 }
 
+form input[type="submit"]:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
 form a {
     text-decoration: none;
 }
 
 form a:hover {
     color: #5e94ff;
-}
-
-#dnm:hover * {
-    background: rgb(44, 44, 44);
-    color: white;
 }
