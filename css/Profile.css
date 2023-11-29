@@ -14,6 +14,11 @@ header {
     background-color: #ccc;
     border-radius: 50%;
     margin: 0 auto;
+    transition: .5s;
+}
+
+.profile-picture:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.75);
 }
 
 .username {
@@ -30,7 +35,7 @@ main {
     justify-content: space-around;
     color: #5e94ff;
     margin-bottom: 20px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .followers,
@@ -52,10 +57,15 @@ main {
     color: #5e94ff;
 }
 
-.food {
-    margin-top: 20px;
+.food-list {
     padding: 10px;
-    box-shadow: 0 0 5px blue;
+}
+
+.food {
+    max-width: 750px;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -63,14 +73,29 @@ main {
     flex-direction: column;
 }
 
-.food h2 {
-    display: inline;
+.food div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.food div h2 {
     text-align: left;
     width: 100%;
 }
 
-.food img {
-    height: 350px;
+.food .food-edit {
+    width: min-content;
+    height: min-content;
+}
+
+.food-edit img {
+    width: 20px;
+    height: 20px;
+}
+
+.food>img {
+    max-height: 17.5rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -78,7 +103,7 @@ main {
         width: 100px;
         height: 100px;
     }
-    .food img {
+    .food>img {
         height: 200px;
     }
 }
