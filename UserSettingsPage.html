@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/UserSettingsPage.css">
+    <title>@username - Ayarlar</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li onclick="changeTab(this)" class="active">Item 1</li>
+            <li onclick="changeTab(this)">Item 2</li>
+            <li onclick="changeTab(this)">Item 3</li>
+            <li onclick="changeTab(this)">Item 4</li>
+            <li onclick="changeTab(this)">Item 5</li>
+            <a style="display: none;" id="scrollRef" href="#scroll3">gfgdfg</a>
+        </ul>
+
+    </nav>
+    <div class="content">
+        <div id="scroll1">
+
+        </div>
+        <div id="scroll2">
+
+        </div>
+        <div id="scroll3">
+
+        </div>
+        <div id="scroll4">
+
+        </div>
+        <div id="scroll5">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="js/UserSettings.js">
+    document.body.style.scrollBehavior = 'smooth';
+</script>

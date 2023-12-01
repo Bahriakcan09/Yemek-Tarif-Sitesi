@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    overflow: hidden;
+}
+
+nav {
+    width: min-content;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+ul {
+    list-style: none;
+    height: 100vh;
+}
+
+li:not(.active):hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.active {
+    background-color: rgb(244, 244, 244);
+    border-color: #ccc;
+    border-right-color: transparent;
+}
+
+li {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px 5px 5px;
+    border-radius: 10px 0px 0px 10px;
+    border: 2px solid transparent;
+    transition: .25s;
+}
+
+.content {
+    background-color: rgba(44, 44, 44, 0.05);
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+#scroll1 {
+    background-color: red;
+    height: 100vh;
+    width: 100%;
+}
+
+#scroll2 {
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+}
+
+#scroll3 {
+    background-color: gray;
+    height: 100vh;
+    width: 100%;
+}
+
+#scroll4 {
+    background-color: green;
+    height: 100vh;
+    width: 100%;
+}
+
+#scroll5 {
+    background-color: purple;
+    height: 100vh;
+    width: 100%;
+}
